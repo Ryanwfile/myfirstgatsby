@@ -9,11 +9,12 @@ const IndexPage = () => {
      <p>I'm making this change to test the CLRF by following the Gatsby Tutorial.</p>
      <StaticImage
       alt="Carlin face"
-      src="../images/halloweenCHangemymind.png"
+      src="https://api.time.com/wp-content/uploads/2017/09/carlin.jpeg?w=800&quality=85"
      />
    </Layout>
   )
 }
+//"../images/halloweenCHangemymind.png"
 //"https://api.time.com/wp-content/uploads/2017/09/carlin.jpeg?w=800&quality=85"
 // Step 3: Export your component
 export default IndexPage
