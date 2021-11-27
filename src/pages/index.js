@@ -9,7 +9,7 @@ const IndexPage = () => {
      <p>I'm making this change to test the CLRF by following the Gatsby Tutorial.</p>
      <StaticImage
       alt="Carlin face"
-      src="https://api.time.com/wp-content/uploads/2017/09/carlin.jpeg?w=800&quality=85"
+      src="../images/halloweenCHangemymind.png"
      />
    </Layout>
   )
