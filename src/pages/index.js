@@ -2,7 +2,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
-// import Horror from '../images/horror.png'
+// import {HorrorExport} from '../images/horror-export.js'
 // Step 2: Define your component
 const IndexPage = () => {
   // To get the filename
@@ -22,8 +22,12 @@ console.log("THIS file path works locally ../images/horror.png")
      <StaticImage 
      alt = "Uhh test image would go here, LOCAL TEST"
      src= "../images/horror.png"/>
-
-     
+   <StaticImage 
+     alt = "Uhh test image would go here, LOCAL TEST"
+     src= "/images/horror.png"/>
+        <StaticImage 
+     alt = "Uhh test image would go here, LOCAL TEST"
+     src= "horror.png"/>
    </Layout>
   )
 }
