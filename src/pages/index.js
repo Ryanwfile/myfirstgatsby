@@ -5,6 +5,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 // import Horror from '../images/horror.png'
 // Step 2: Define your component
 const IndexPage = () => {
+  // To get the filename
+console.log(`Filename is ${__filename}`);
+  
+// To get the directory name
+console.log(`Directory name is ${__dirname}`);
+console.log("THIS file path works locally ../images/horror.png")
   return (
    <Layout pageTitle="Home Page">
      <p>Source is URL https: ...</p>
